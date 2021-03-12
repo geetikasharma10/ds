@@ -1,0 +1,32 @@
+print("enter the vaule of a and b :")
+a=int(input())
+b=int(input())
+
+print("1.+")
+print("2.-")
+print("3.*")
+print("4./")
+
+x = int(input("Choose Operation"))
+
+def add(a,b):
+   return(a+b)
+def sub(a,b):
+   return(a-b)
+def mult(a,b):
+   return(a*b)
+def div(a,b):
+   return(a/b)
+
+def main():
+   if x == 1:
+       print("+:", add(a,b))
+   if x == 2:
+       print("-:", sub(a,b))
+   if x == 3:
+       print("*:", mult(a,b))
+   if x == 4:
+       print("/:", div(a,b))
+
+
+main()
