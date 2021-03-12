@@ -1,0 +1,24 @@
+print("enter the vaule r:")
+r=int(input())
+
+print("1.dia")
+print("2.area")
+print("3.cir")
+
+x = int(input("Choose Operation"))
+def dia(r):
+  return (r*r)
+def area(r):
+  return(3.14*r*r)
+def cir(r):
+  return(2*3.14*r)
+
+def main():
+   if x==1:
+       print("dia of circle is",dia(r))
+   if x==2:
+       print("areaof circle is",area(r))
+   if x==3:
+       print("cir of circle is",cir(r))
+main()
+
